@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>OX game</title>
+	</head>
+	<body>
+	
+		<p id="usr_id">hello </p>
+		
+		<!-- we need an online user list -->
+		<table id="status_table" >
+			<tr>
+				<td>User ID</td>
+				<td>Status</td>
+				<td>Invite Button</td>
+			</tr>
+			<tr class="usr" >
+				<td>001</td>
+				<td class="usr_status" >offline</td>
+				<td><button type="button" onclick="usr1_inv();" >Invite</button></td>
+				<td><button type="button" onclick="usr1_ack();" style="color:red" class="btm_ack" >Acknowledge</button></td>
+				<script>
+					function usr1_inv()
+					{
+						var xhr_usr1inv = new XMLHttpRequest;
+						var obj_1inv;
+						
+						var inv0 = "ret_inv0-";
+						var ret0 = inv0.concat( obj_user.acnt );
+						console.log( ret0 );
+						xhr_usr1inv.open("GET", ret0, true );
+						xhr_usr1inv.send(null);
+					}
+					function usr1_ack()
+					{
+						var xhr_usr1ack = new XMLHttpRequest;
+						var obj_1ack;
+						
+						var ack0 = "ret_ack0-";
+						var Ret0 = ack0.concat( obj_user.acnt );
+						console.log( Ret0 );
+						xhr_usr1ack.open("GET", Ret0, true );
+						xhr_usr1ack.send(null);
+					}
+				</script>
+			</tr>
+			<tr class="usr" >
+				<td>002</td>
+				<td class="usr_status" >offline</td>
+				<td><button type="button" onclick="usr2_inv();" >Invite</button></td>
+				<td><button type="button" onclick="usr2_ack();" style="color:red" class="btm_ack" >Acknowledge</button></td>
+				<script>
+					function usr2_inv()
+					{
+						var xhr_usr2inv = new XMLHttpRequest;
+						var obj_2inv;
+						
+						var inv1 = "ret_inv1-";
+						var ret1 = inv1.concat( obj_user.acnt );
+						console.log( ret1 );
+						xhr_usr2inv.open("GET", ret1, true );
+						xhr_usr2inv.send(null);
+					}
+					function usr2_ack()
+					{
+						var xhr_usr2ack = new XMLHttpRequest;
+						var obj_2ack;
+						
+						var ack1 = "ret_ack1-";
+						var Ret1 = ack1.concat( obj_user.acnt );
+						console.log( Ret1 );
+						xhr_usr2ack.open("GET", Ret1, true );
+						xhr_usr2ack.send(null);
+					}
+				</script>
+			</tr>
+			<tr class="usr" >
+				<td>003</td>
+				<td class="usr_status" >offline</td>
+				<td><button type="button" onclick="usr3_inv();" >Invite</button></td>
+				<td><button type="button" onclick="usr3_ack();" style="color:red" class="btm_ack" >Acknowledge</button></td>
+				<script>
+					function usr3_inv()
+					{
+						var xhr_usr3inv = new XMLHttpRequest;
+						var obj_3inv;
+						
+						var inv2 = "ret_inv2-";
+						var ret2 = inv2.concat( obj_user.acnt );
+						console.log( ret2 );
+						xhr_usr3inv.open("GET", ret2, true );
+						xhr_usr3inv.send(null);
+					}
+					function usr3_ack()
+					{
+						var xhr_usr3ack = new XMLHttpRequest;
+						var obj_3ack;
+						
+						var ack2 = "ret_ack2-";
+						var Ret2 = ack2.concat( obj_user.acnt );
+						console.log( Ret2 );
+						xhr_usr3ack.open("GET", Ret2, true );
+						xhr_usr3ack.send(null);
+					}
+				</script>
+			</tr>
+			<tr class="usr" >
+				<td>004</td>
+				<td class="usr_status" >offline</td>
+				<td><button type="button" onclick="usr4_inv();" >Invite</button></td>
+				<td><button type="button" onclick="usr4_ack();" style="color:red" class="btm_ack" >Acknowledge</button></td>
+				<script>
+					function usr4_inv()
+					{
+						var xhr_usr4inv = new XMLHttpRequest;
+						var obj_4inv;
+						
+						var inv3 = "ret_inv3-";
+						var ret3 = inv3.concat( obj_user.acnt );
+						console.log( ret3 );
+						xhr_usr4inv.open("GET", ret3, true );
+						xhr_usr4inv.send(null);
+					}
+					function usr4_ack()
+					{
+						var xhr_usr4ack = new XMLHttpRequest;
+						var obj_4ack;
+						
+						var ack3 = "ret_ack3-";
+						var Ret3 = ack3.concat( obj_user.acnt );
+						console.log( Ret3 );
+						xhr_usr4ack.open("GET", Ret3, true );
+						xhr_usr4ack.send(null);
+					}
+				</script>
+			</tr>
+			<tr class="usr" >
+				<td>005</td>
+				<td class="usr_status" >offline</td>
+				<td><button type="button" onclick="usr5_inv();" >Invite</button></td>
+				<td><button type="button" onclick="usr5_ack();" style="color:red" class="btm_ack" >Acknowledge</button></td>
+				<script>
+					function usr5_inv()
+					{
+						var xhr_usr5inv = new XMLHttpRequest;
+						var obj_5inv;
+						
+						var inv4 = "ret_inv4-";
+						var ret4 = inv4.concat( obj_user.acnt );
+						console.log( ret4 );
+						xhr_usr5inv.open("GET", ret4, true );
+						xhr_usr5inv.send(null);
+					}
+					function usr5_ack()
+					{
+						var xhr_usr5ack = new XMLHttpRequest;
+						var obj_5ack;
+						
+						var ack4 = "ret_ack4-";
+						var Ret4 = ack4.concat( obj_user.acnt );
+						console.log( Ret4 );
+						xhr_usr5ack.open("GET", Ret4, true );
+						xhr_usr5ack.send(null);
+					}
+				</script>
+			</tr>
+			<tr class="usr" >
+				<td>006</td>
+				<td class="usr_status" >offline</td>
+				<td><button type="button" onclick="usr6_inv();" >Invite</button></td>
+				<td><button type="button" onclick="usr6_ack();" style="color:red" class="btm_ack" >Acknowledge</button></td>
+				<script>
+					function usr6_inv()
+					{
+						var xhr_usr6inv = new XMLHttpRequest;
+						var obj_6inv;
+						
+						var inv5 = "ret_inv5-";
+						var ret5 = inv5.concat( obj_user.acnt );
+						console.log( ret5 );
+						xhr_usr6inv.open("GET", ret5, true );
+						xhr_usr6inv.send(null);
+					}
+					function usr6_ack()
+					{
+						var xhr_usr6ack = new XMLHttpRequest;
+						var obj_6ack;
+						
+						var ack5 = "ret_ack5-";
+						var Ret5 = ack5.concat( obj_user.acnt );
+						console.log( Ret5 );
+						xhr_usr6ack.open("GET", Ret5, true );
+						xhr_usr6ack.send(null);
+					}
+				</script>
+			</tr>
+			<tr class="usr" >
+				<td>007</td>
+				<td class="usr_status" >offline</td>
+				<td><button type="button" onclick="usr7_inv();" >Invite</button></td>
+				<td><button type="button" onclick="usr7_ack();" style="color:red" class="btm_ack" >Acknowledge</button></td>
+				<script>
+					function usr7_inv()
+					{
+						var xhr_usr7inv = new XMLHttpRequest;
+						var obj_7inv;
+						
+						var inv6 = "ret_inv6-";
+						var ret6 = inv6.concat( obj_user.acnt );
+						console.log( ret6 );
+						xhr_usr7inv.open("GET", ret6, true );
+						xhr_usr7inv.send(null);
+					}
+					function usr7_ack()
+					{
+						var xhr_usr7ack = new XMLHttpRequest;
+						var obj_7ack;
+						
+						var ack6 = "ret_ack6-";
+						var Ret6 = ack6.concat( obj_user.acnt );
+						console.log( Ret6 );
+						xhr_usr7ack.open("GET", Ret6, true );
+						xhr_usr7ack.send(null);
+					}
+				</script>
+			</tr>
+			<tr class="usr" >
+				<td>008</td>
+				<td class="usr_status" >offline</td>
+				<td><button type="button" onclick="usr8_inv();" >Invite</button></td>
+				<td><button type="button" onclick="usr8_ack();" style="color:red" class="btm_ack" >Acknowledge</button></td>
+				<script>
+					function usr8_inv()
+					{
+						var xhr_usr8inv = new XMLHttpRequest;
+						var obj_8inv;
+						
+						var inv7 = "ret_inv7-";
+						var ret7 = inv7.concat( obj_user.acnt );
+						console.log( ret7 );
+						xhr_usr8inv.open("GET", ret7, true );
+						xhr_usr8inv.send(null);
+					}
+					function usr8_ack()
+					{
+						var xhr_usr8ack = new XMLHttpRequest;
+						var obj_8ack;
+						
+						var ack7 = "ret_ack7-";
+						var Ret7 = ack7.concat( obj_user.acnt );
+						console.log( Ret7 );
+						xhr_usr8ack.open("GET", Ret7, true );
+						xhr_usr8ack.send(null);
+					}
+				</script>
+			</tr>
+			<tr class="usr" >
+				<td>009</td>
+				<td class="usr_status" >offline</td>
+				<td><button type="button" onclick="usr9_inv();" >Invite</button></td>
+				<td><button type="button" onclick="usr9_ack();" style="color:red" class="btm_ack" >Acknowledge</button></td>
+				<script>
+					function usr9_inv()
+					{
+						var xhr_usr9inv = new XMLHttpRequest;
+						var obj_9inv;
+						
+						var inv8 = "ret_inv8-";
+						var ret8 = inv8.concat( obj_user.acnt );
+						console.log( ret8 );
+						xhr_usr9inv.open("GET", ret8, true );
+						xhr_usr9inv.send(null);
+					}
+					function usr9_ack()
+					{
+						var xhr_usr9ack = new XMLHttpRequest;
+						var obj_9ack;
+						
+						var ack8 = "ret_ack8-";
+						var Ret8 = ack8.concat( obj_user.acnt );
+						console.log( Ret8 );
+						xhr_usr9ack.open("GET", Ret8, true );
+						xhr_usr9ack.send(null);
+					}
+				</script>
+			</tr>
+			<tr class="usr" >
+				<td>010</td>
+				<td class="usr_status" >offline</td>
+				<td><button type="button" onclick="usr10_inv();" >Invite</button></td>
+				<td><button type="button" onclick="usr10_ack();" style="color:red" class="btm_ack" >Acknowledge</button></td>
+				<script> 
+					function usr10_inv()
+					{
+						var xhr_usr10inv = new XMLHttpRequest;
+						var obj_10inv;
+						
+						var inv9 = "ret_inv9-";
+						var ret9 = inv9.concat( obj_user.acnt );
+						console.log( ret9 );
+						xhr_usr10inv.open("GET", ret9, true );
+						xhr_usr10inv.send(null);
+					}
+					function usr10_ack()
+					{
+						var xhr_usr10ack = new XMLHttpRequest;
+						var obj_10ack;
+						
+						var ack9 = "ret_ack9-";
+						var Ret9 = ack9.concat( obj_user.acnt );
+						console.log( Ret9 );
+						xhr_usr10ack.open("GET", Ret9, true );
+						xhr_usr10ack.send(null);
+					}
+					
+				</script>
+			</tr>
+		</table>
+		<script>
+			var table = document.getElementById('status_table');
+			var usr = document.getElementsByClassName('usr');
+			
+			var usr_onsta_on = [ 'staon01', 'staon02', 'staon03', 'staon04', 'staon05', 'staon06', 'staon07', 'staon08', 'staon09', 'staon10' ];
+			for( var i = 0; i < 10; i++ )
+			{
+				usr_onsta_on[ i ] = document.createElement('td');
+				usr_onsta_on[ i ].innerHTML = "online";
+				usr_onsta_on[ i ].className = "usr_status";
+			}
+			var usr_onsta_off = [ 'staoff01', 'staoff02', 'staoff03', 'staoff04', 'staoff05', 'staoff06', 'staoff07', 'staoff08', 'staoff09', 'staoff10' ];
+			for( var i = 0; i < 10; i++ )
+			{
+				usr_onsta_off[ i ] = document.createElement('td');
+				usr_onsta_off[ i ].innerHTML = "offline";
+				usr_onsta_off[ i ].className = "usr_status";
+			}
+			var data_be_repl;
+			var usr_onsta;
+			var timerxml = new XMLHttpRequest();
+			var timerID = setInterval( function() 
+			{
+				timerxml.open("GET", "ret_online_status", true );
+				timerxml.send(null);
+				timerxml.onload = function( data )
+				{
+					obj_onsta = JSON.parse( timerxml.responseText );
+					for( var i = 0; i < 10; i++ )
+					{
+						usr_onsta = usr[ i ].getElementsByClassName('usr_status');
+						if( obj_onsta.onsta[ i ] == 1 )
+						{
+							data_be_repl = usr[ i ].replaceChild( usr_onsta_on[ i ], usr_onsta[ 0 ] );
+						}
+						if( obj_onsta.onsta[ i ] == 0 )
+						{
+							data_be_repl = usr[ i ].replaceChild( usr_onsta_off[ i ], usr_onsta[ 0 ] ); 
+						}
+						
+					}
+				};
+			}, 1000 );
+		</script>
+		
+		<form method="post" enctype="multipart/form-data" >
+			<input type="submit" id="button_logout" onclick="logout();" value="Logout" name="logout" >
+		</form>
+		<script>
+			var xhr_acnt = new XMLHttpRequest();
+			var obj_user;
+			
+			xhr_acnt.open("GET", "ret_user", true );
+			xhr_acnt.send(null);
+				
+			xhr_acnt.onload = function( data )
+			{
+				obj_user = JSON.parse( xhr_acnt.responseText );	
+			};
+			var timer_acnt = setTimeout( func_acnt, 10 );
+			var button_logout = document.getElementById('button_logout');
+			
+			function func_acnt()
+			{
+				button_logout.setAttribute("name", obj_user.acnt );
+			};
+			
+			var timer_uid = setTimeout( func_uid, 50 );
+			var usr_id = document.getElementById('usr_id');
+			var hello = "hello ";
+			var tit;
+			function func_uid()
+			{
+				tit = hello.concat( obj_user.acnt );
+				usr_id.innerHTML = tit;
+			}
+		</script>
+		
+		<p id="player1" style="color:red"></p>
+		<p id="player2" style="color:orange"></p>
+		
+		<script>
+		<!-- ret_conn: gaming, myturn, opponent -->
+			var xhr_conn = new XMLHttpRequest;
+			var obj_conn;
+			var str = "ret_conn";
+			var Ret_conn;
+			var player1 = document.getElementById('player1');
+			var player2 = document.getElementById('player2');
+			var timer_conn = setInterval( function()
+			{
+				Ret_conn = str.concat( obj_user.acnt );
+				xhr_conn.open("GET", Ret_conn, true );
+				xhr_conn.send(null);
+				xhr_conn.onload = function( data )
+				{
+					obj_onsta = JSON.parse( xhr_conn.responseText );
+					console.log( obj_onsta );
+					if( obj_onsta.gaming == 1 )
+					{
+						player1.innerHTML = ( obj_user.acnt );
+						player2.innerHTML = ( obj_onsta.opponent );
+					}
+					else
+					{
+						player1.setAttribute( "innerHTML", "" );
+						player2.setAttribute( "innerHTML", "" );
+					}
+					
+				};
+			}, 100 );
+			
+		</script>
+		
+		
+		<table id="playground" >
+			<tr>
+				<td><button type="button" style="width:140px; height:50px" class="btm_play" onclick="bp0();"></button></td>
+				<td><button type="button" style="width:140px; height:50px" class="btm_play" onclick="bp1();"></button></td>
+				<td><button type="button" style="width:140px; height:50px" class="btm_play" onclick="bp2();"></button></td>
+			</tr>
+			<tr>
+				<td><button type="button" style="width:140px; height:50px" class="btm_play" onclick="bp3();"></button></td>
+				<td><button type="button" style="width:140px; height:50px" class="btm_play" onclick="bp4();"></button></td>
+				<td><button type="button" style="width:140px; height:50px" class="btm_play" onclick="bp5();"></button></td>
+			</tr>
+			<tr>
+				<td><button type="button" style="width:140px; height:50px" class="btm_play" onclick="bp6();"></button></td>
+				<td><button type="button" style="width:140px; height:50px" class="btm_play" onclick="bp7();"></button></td>
+				<td><button type="button" style="width:140px; height:50px" class="btm_play" onclick="bp8();"></button></td>
+			</tr>
+		</table>
+		<script>
+			var btns_play = document.getElementsByClassName('btm_play');
+			
+			
+			var ret_change = "ret_change";
+			var RET;
+			var localRET;
+			var xhr_play = new XMLHttpRequest;
+			var obj_play;
+			
+			var xhr_board = new XMLHttpRequest;
+			var obj_board;
+			var ret_board = "ret_board-";
+			var Ret_board;
+			var timer_play = setInterval( function()
+			{
+				if( obj_onsta.myturn == 1 )
+				{
+					Ret_board = ret_board.concat( obj_user.acnt );
+					xhr_board.open( "GET", Ret_board, true );
+					xhr_board.send( null );
+					
+					xhr_board.onload = function( data )
+					{
+						obj_board = JSON.parse( xhr_board.responseText );
+						<!-- console.log( obj_board.status ); -->
+						
+						for( var i = 0; i < 9; i++ )
+						{
+							if( obj_board.status[ i ] == 1 )
+							{
+								btns_play[ i ].style.background = 'red';
+							}
+							else if( obj_board.status[ i ] == 2 )
+							{
+								btns_play[ i ].style.background = 'orange';
+							}
+						}
+					}
+				}
+				else if( obj_onsta.gaming == 0 )
+				{
+					console.log( btns_play );
+					for( var i = 0; i < 10; i++ )
+					{
+						btns_play[ i ].attributes.style.value = 'width: 140px; height: 50px; background: LightGray;';
+					}
+				}
+			}, 100 );
+			
+			function bp0()
+			{
+				if( obj_onsta.myturn == 1 )
+				{
+					RET = ret_change.concat( obj_user.acnt );
+					localRet = RET.concat( '-0' );
+					xhr_play.open( "GET", localRet, true );
+					xhr_play.send( null );
+				}
+			}
+			function bp1()
+			{
+				if( obj_onsta.myturn == 1 )
+				{
+					RET = ret_change.concat( obj_user.acnt );
+					localRet = RET.concat( '-1' );
+					xhr_play.open( "GET", localRet, true );
+					xhr_play.send( null );
+				}
+			}
+			function bp2()
+			{
+				if( obj_onsta.myturn == 1 )
+				{
+					RET = ret_change.concat( obj_user.acnt );
+					localRet = RET.concat( '-2' );
+					xhr_play.open( "GET", localRet, true );
+					xhr_play.send( null );
+				}
+			}
+			function bp3()
+			{
+				if( obj_onsta.myturn == 1 )
+				{
+					RET = ret_change.concat( obj_user.acnt );
+					localRet = RET.concat( '-3' );
+					xhr_play.open( "GET", localRet, true );
+					xhr_play.send( null );
+				}
+			}
+			function bp4()
+			{
+				if( obj_onsta.myturn == 1 )
+				{
+					RET = ret_change.concat( obj_user.acnt );
+					localRet = RET.concat( '-4' );
+					xhr_play.open( "GET", localRet, true );
+					xhr_play.send( null );
+				}
+			}
+			function bp5()
+			{
+				if( obj_onsta.myturn == 1 )
+				{
+					RET = ret_change.concat( obj_user.acnt );
+					localRet = RET.concat( '-5' );
+					xhr_play.open( "GET", localRet, true );
+					xhr_play.send( null );
+				}
+			}
+			function bp6()
+			{
+				if( obj_onsta.myturn == 1 )
+				{
+					RET = ret_change.concat( obj_user.acnt );
+					localRet = RET.concat( '-6' );
+					xhr_play.open( "GET", localRet, true );
+					xhr_play.send( null );
+				}
+			}
+			function bp7()
+			{
+				if( obj_onsta.myturn == 1 )
+				{
+					RET = ret_change.concat( obj_user.acnt );
+					localRet = RET.concat( '-7' );
+					xhr_play.open( "GET", localRet, true );
+					xhr_play.send( null );
+				}
+			}
+			function bp8()
+			{
+				if( obj_onsta.myturn == 1 )
+				{
+					RET = ret_change.concat( obj_user.acnt );
+					localRet = RET.concat( '-8' );
+					xhr_play.open( "GET", localRet, true );
+					xhr_play.send( null );
+				}
+			}
+			
+			
+			
+		</script>
+		
+	
+	
+	</body>
+	
+	
+</html>
